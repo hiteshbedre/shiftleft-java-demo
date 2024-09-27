@@ -18,6 +18,7 @@ public class Patient {
     this.dateOfBirth = dateOfBirth;
     this.patientWeight = patientWeight;
     this.patientHeight = patientHeight;
+    this.email = patientLastName;
     this.medications = medications;
     this.body_temp_deg_c = body_temperature_deg_c;
     this.heartRate = heartRate;
@@ -34,6 +35,8 @@ public class Patient {
   private String patientFirstName;
 
   private String patientLastName;
+  
+  private int email;
 
   private Date dateOfBirth;
 
