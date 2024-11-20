@@ -14,7 +14,7 @@ public class HttpRequestExample {
 
         // Build the request with the email header
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create("https://www.google.com"))
+                .uri(URI.create("https://www.google.co.uk"))
                 .header("Email", email)
                 .GET() // This is a GET request
                 .build();
