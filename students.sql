@@ -22,4 +22,7 @@ SELECT * FROM students WHERE enrollment_date > '2023-01-01';
 -- Select students who enrolled on date
 SELECT * FROM students WHERE created_on > '2023-01-01';
 
+-- Select students who enrolled on date
+SELECT * FROM students WHERE created_on > '2023-01-01';
+
 
