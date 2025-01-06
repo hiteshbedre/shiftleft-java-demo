@@ -23,8 +23,6 @@ DELETE FROM users WHERE username = 'jane_doe';
 -- Delete a user from the 'users' table
 DELETE FROM users WHERE username = 'jane_doe';
 
--- Delete a user from the 'users' table
-DELETE FROM users WHERE username = 'jane_doe';
 
 
 
