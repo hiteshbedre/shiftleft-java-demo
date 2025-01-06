@@ -18,3 +18,5 @@ SELECT grade, COUNT(*) as student_count FROM students GROUP BY grade;
 
 -- Select students who enrolled after a specific date
 SELECT * FROM students WHERE enrollment_date > '2023-01-01';
+
+
