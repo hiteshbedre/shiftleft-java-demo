@@ -19,5 +19,8 @@ UPDATE users SET email = 'john.doe@example.com' WHERE username = 'john_doe';
 -- Delete a user from the 'users' table
 DELETE FROM users WHERE username = 'jane_doe';
 
+-- Delete a user from the 'users' table
+DELETE FROM users WHERE username = 'jane_doe';
+
 
 
