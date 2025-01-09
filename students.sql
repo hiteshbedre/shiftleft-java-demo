@@ -1,5 +1,5 @@
 -- Select all columns from the students table
-SELECT * FROM students;
+SELECT id FROM students;
 
 -- Select specific columns from the students table
 SELECT student_id, first_name, last_name, grade FROM students;
